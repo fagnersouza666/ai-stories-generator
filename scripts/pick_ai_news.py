@@ -5,7 +5,7 @@ Reads feeds from a file (one URL per line). Filters entries from last N hours an
 Outputs JSON list of candidates: [{title,url,source,published}]
 
 Usage:
-  python pick_ai_news.py --feeds /home/robo/.openclaw/workspace/feeds.md --hours 24 --limit 15
+  python pick_ai_news.py --feeds /path/to/feeds.txt --hours 24 --limit 15
 """
 
 from __future__ import annotations
